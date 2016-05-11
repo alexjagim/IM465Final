@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Click Game Tech Demo</title>
+	<script src="scripts/manager.js"></script>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body onload="SetUpData()">
+	<h1 id="score">Score: </h1>
+	<p>Click on the Kitten to get points! Click on the Upgrades below the Kitten to get more points!</p>
+	<div id="kitten" onclick="PetKitten()"><h2>Kitten</h2></div>
+	<div id="pet-petter" onclick="AddPetPetter()"><h2>Add Pet Petter</h2><h3 id="pet-petter-price">10</h3></div>
+	<div id="increase-petting" onclick="IncreasePettingPower()"><h2>Increase Petting Power</h2><h3 id="increase-petting-price">50</h3></div>
+	<div id="pet-groomer" onclick="AddPetGroomer()"><h2>Add Pet Groomer</h2><h3 id="pet-groomer-price">1000</h3></div>
+	<div id="increase-petter-speed" onclick="IncreasePetterSpeed()"><h2>Increase Petter Speed</h2><h3 id="increase-petter-speed-price">10500</h3></div>
+	<div id="increase-groomer-speed" onclick="IncreaseGroomerSpeed()"><h2>Increase Groomer Speed</h2><h3 id="increase-groomer-speed-price">50000</h3></div>
+
+	
+</body>
+</html>
